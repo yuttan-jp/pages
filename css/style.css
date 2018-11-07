@@ -414,6 +414,12 @@ body {
   position: relative;
   cursor: pointer;
 }
+.custom-icon {
+  font-family: FontAwesome;
+  font-size: 14px;
+  width: 14px;
+  height: 14px;
+}
 .main-nav-link {
   font-weight: 300;
   letter-spacing: 1px;
@@ -443,6 +449,12 @@ body {
 }
 #nav-search-btn:before {
   content: "\f002";
+}
+#nav-twitter-btn:before {
+  content: "\f099";
+}
+#nav-github-btn:before {
+  content: "\f09b";
 }
 #search-form-wrap {
   position: absolute;

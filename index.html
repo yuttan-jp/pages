@@ -18,6 +18,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Comp &amp; Mental">
 <meta name="twitter:description" content="コンピューターとメンタルヘルス">
+<meta name="twitter:creator" content="@https:&#x2F;&#x2F;twitter.com&#x2F;_yuttan_jp">
   
     <link rel="alternate" href="/pages/atom.xml" title="Comp &amp; Mental" type="application/atom+xml">
   
@@ -76,12 +77,157 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Landscapeでfont-Awesomの利用" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/pages/2018/11/07/Landscapeでfont-Awesomの利用/" class="article-date">
+  <time datetime="2018-11-07T07:21:26.000Z" itemprop="datePublished">2018-11-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/pages/categories/コンピューター/">コンピューター</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/pages/2018/11/07/Landscapeでfont-Awesomの利用/">Landscapeでfont-Awesomの利用</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">themes\landscape\source\css\_partial\header.styl</span><br></pre></td></tr></table></figure>
+<p><strong>Font Awesome Finder</strong><br><a href="http://waramo.co.jp/fa/" target="_blank" rel="noopener">http://waramo.co.jp/fa/</a></p>
+<p>ここからフォントコードを取得</p>
+<p>以下 nav-[name]-btn などで定義<br>content: に取得したコードを入力</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#nav-twitter-btn</span></span><br><span class="line">  &amp;<span class="selector-pseudo">:before</span></span><br><span class="line">    <span class="selector-tag">content</span>:    "\<span class="selector-tag">f099</span>"</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#nav-github-btn</span></span><br><span class="line">  &amp;<span class="selector-pseudo">:before</span></span><br><span class="line">    <span class="selector-tag">content</span>:    "\<span class="selector-tag">f09b</span>"</span><br></pre></td></tr></table></figure>
+<p>paddingの影響を受けるため<br>iconクラスを自作</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.custom-icon</span></span><br><span class="line">  <span class="selector-tag">font-family</span>:  <span class="selector-tag">font-icon</span></span><br><span class="line">  <span class="selector-tag">font-size</span>:    <span class="selector-tag">font-size</span></span><br><span class="line">  <span class="selector-tag">width</span>:        <span class="selector-tag">font-size</span></span><br><span class="line">  <span class="selector-tag">height</span>:       <span class="selector-tag">font-size</span></span><br></pre></td></tr></table></figure>
+<p>例: Twitterアイコンの埋め込み</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">"nav-twitter-btn"</span> <span class="attr">class</span>=<span class="string">"custom-icon"</span> <span class="attr">title</span>=<span class="string">"twitter"</span> <span class="attr">href</span>=<span class="string">"https://twitter.com/[YOUR_ID]"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://yuttan-jp.github.io/pages/2018/11/07/Landscapeでfont-Awesomの利用/" data-id="cjo6v6d3i0005doehh8dl7fkx" class="article-share-link">共有</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/pages/tags/Hexo/">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Bashで文字列検索" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/pages/2018/11/07/Bashで文字列検索/" class="article-date">
+  <time datetime="2018-11-07T02:24:13.000Z" itemprop="datePublished">2018-11-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/pages/categories/コンピューター/">コンピューター</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/pages/2018/11/07/Bashで文字列検索/">Bashで文字列検索</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">find [検索対象フォルダのパス] -<span class="built_in">type</span> f -<span class="built_in">print</span> | xargs grep <span class="string">'[検索したい文字列]'</span></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://yuttan-jp.github.io/pages/2018/11/07/Bashで文字列検索/" data-id="cjo6v6d340000doehz88u2mkq" class="article-share-link">共有</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/pages/tags/Linux/">Linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Hexoのカスタマイズ" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/pages/2018/11/07/Hexoのカスタマイズ/" class="article-date">
+  <time datetime="2018-11-06T21:33:40.000Z" itemprop="datePublished">2018-11-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/pages/categories/コンピューター/">コンピューター</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/pages/2018/11/07/Hexoのカスタマイズ/">Hexoのカスタマイズ</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>バナーの変更</strong><br>バナー(トップページのタイトル壁紙)は以下の場所にあります<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysite/themes/landscape/source/css/images/banner.jpg</span><br></pre></td></tr></table></figure></p>
+<p>1920 * 1200 (.jpg)</p>
+<p><strong>サイドバーにプロフィール追加</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysite/themes/landscape/layout/_widget/about.ejs</span><br></pre></td></tr></table></figure></p>
+<p>を作成</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">site.posts.length</span>)&#123; %&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"widget-wrap"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">"widget-title"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">%=</span> <span class="attr">__</span>('<span class="attr">About</span>') %&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"widget"</span>&gt;</span></span><br><span class="line">            </span><br><span class="line">           <span class="comment">&lt;!-- ここにコンテンツ --&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></span><br></pre></td></tr></table></figure>
+<p><code>&lt;%= __(&#39;About&#39;) %&gt;</code><br><strong>About</strong>というメニューを強引に作りました<br>なにも連動していません</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://yuttan-jp.github.io/pages/2018/11/07/Hexoのカスタマイズ/" data-id="cjo6v6d3c0002doehdglalj0d" class="article-share-link">共有</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/pages/tags/Hexo/">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-ブログ始めました" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/pages/2018/11/06/ブログ始めました/" class="article-date">
   <time datetime="2018-11-06T03:19:11.000Z" itemprop="datePublished">2018-11-06</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/pages/categories/コンピューター/">コンピューター</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -99,61 +245,17 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>ブログ始めました</p>
-<p>てすと</p>
+<p>WordPressも検討しましたが、サーバーのレンタル代とセキュリティ面からSSG(Static Site Generator)=静的サイトジェネレーターではじめることにしました</p>
+<p>数あるSSGの中でもわかりやすい<strong>Hexo</strong>にしました<br>cssなんかもThemeによってはほぼそのままカスタマイズできるのでべんりです</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://yuttan-jp.github.io/pages/2018/11/06/ブログ始めました/" data-id="cjo56nq2e0002auehii67c66v" class="article-share-link">共有</a>
+      <a data-url="https://yuttan-jp.github.io/pages/2018/11/06/ブログ始めました/" data-id="cjo6v6d3k0006doehayq9i6iq" class="article-share-link">共有</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/pages/tags/hexo-blog-github/">hexo, blog, github</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/pages/tags/GitHub/">GitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/pages/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/pages/tags/blog/">blog</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/pages/2018/11/06/hello-world/" class="article-date">
-  <time datetime="2018-11-05T23:34:27.796Z" itemprop="datePublished">2018-11-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/pages/2018/11/06/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://yuttan-jp.github.io/pages/2018/11/06/hello-world/" data-id="cjo56nq260000auehbolsv93x" class="article-share-link">共有</a>
-      
-      
     </footer>
   </div>
   
@@ -168,25 +270,63 @@
           <aside id="sidebar">
   
     
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        プロフィール
+        <div class="widget">
+
+            <!-- ここはプロフィールです -->
+            <div style="
+                all:            initial;
+                font-size:      13px;
+                color:          #444;
+                font-family:    sans-serif;
+            ">
+                <b>yuttan-jp</b>
+                <a id="nav-twitter-btn" class="custom-icon" title="twitter" href="https://twitter.com/_yuttan_jp"></a>
+                <a id="nav-github-btn" class="custom-icon" title="github" href="https://github.com/yuttan-jp/"></a>
+                <br>
+                <br>
+                - 元パソコン屋店長 <br>
+                - 元SE, PG <br>
+                - 元PCインストラクター<br>
+                <br>
+                激務&パワハラのため <br>
+                31歳でうつ病発症 <br>
+                現在双極性障害 <br>
+                <br>
+                趣味: <br>
+                - 料理 <br>
+                - ピアノ <br>
+                - コンピューター<br>
+                - ゲーム <br>
+                <br>
+                <a href="about/">....more</a>
+
+                <!-- ここはプロフィールです -->
+
+            </div>
+        </div>
+        </h3></div>
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">カテゴリ</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/pages/categories/コンピューター/">コンピューター</a></li></ul>
+    </div>
+  </div>
+
 
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">タグ</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/pages/tags/hexo-blog-github/">hexo, blog, github</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/pages/tags/GitHub/">GitHub</a></li><li class="tag-list-item"><a class="tag-list-link" href="/pages/tags/Hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/pages/tags/Linux/">Linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/pages/tags/blog/">blog</a></li></ul>
     </div>
   </div>
 
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">タグクラウド</h3>
-    <div class="widget tagcloud">
-      <a href="/pages/tags/hexo-blog-github/" style="font-size: 10px;">hexo, blog, github</a>
-    </div>
-  </div>
 
   
     
@@ -206,11 +346,19 @@
       <ul>
         
           <li>
-            <a href="/pages/2018/11/06/ブログ始めました/">ブログ始めました</a>
+            <a href="/pages/2018/11/07/Landscapeでfont-Awesomの利用/">Landscapeでfont-Awesomの利用</a>
           </li>
         
           <li>
-            <a href="/pages/2018/11/06/hello-world/">Hello World</a>
+            <a href="/pages/2018/11/07/Bashで文字列検索/">Bashで文字列検索</a>
+          </li>
+        
+          <li>
+            <a href="/pages/2018/11/07/Hexoのカスタマイズ/">Hexoのカスタマイズ</a>
+          </li>
+        
+          <li>
+            <a href="/pages/2018/11/06/ブログ始めました/">ブログ始めました</a>
           </li>
         
       </ul>
